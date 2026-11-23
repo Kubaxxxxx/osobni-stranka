@@ -268,3 +268,15 @@ td {
     transform: none;
   }
 }
+
+@media (prefers-reduced-transparency: reduce) {
+  :root {
+    --bg-card: var(--bg-card-solid);
+    --card-blur: none;
+  }
+
+  .card {
+    background-color: var(--bg-card-solid);
+    backdrop-filter: none;
+  }
+}

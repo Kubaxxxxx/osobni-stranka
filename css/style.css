@@ -269,6 +269,36 @@ td {
   }
 }
 
+@media (forced-colors: active) {
+  body {
+    background-color: Canvas;
+    color: CanvasText;
+    background-image: none;
+  }
+
+  .card,
+  table,
+  th,
+  td {
+    background-color: Canvas;
+    color: CanvasText;
+    border: 2px solid ButtonBorder;
+  }
+
+  nav a,
+  .skip-link {
+    background-color: ButtonFace;
+    color: ButtonText;
+    border: 2px solid ButtonBorder;
+  }
+
+  a {
+    color: LinkText;
+  }
+
+  :focus-visible {
+    outline: 3px solid Highlight;
+    outline-offset: 3px;
 @media (prefers-reduced-transparency: reduce) {
   :root {
     --bg-card: var(--bg-card-solid);

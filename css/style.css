@@ -194,3 +194,18 @@ td {
     width: min(90%, 78rem);
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-page: #121417;
+    --bg-card: rgba(30, 34, 40, 0.85);
+    --bg-card-solid: #1e2228;
+    --text-main: #f0f2f5;
+    --text-muted: #c2c8d1;
+    --accent: #66b2ff;
+    --accent-contrast: #0b192c;
+    --border-color: #3e4652;
+    --page-gradient: linear-gradient(135deg, #0d1014 0%, #171b21 100%);
+    color-scheme: dark;
+  }
+}

@@ -11,4 +11,4 @@ Osobní portfolio vytvořené s důrazem na přístupnost (WCAG 2.2 AA) a přizp
 | `@media (prefers-contrast: more)` | Zvyšuje kontrast na černobílé hodnoty úrovně AAA, zesiluje ohraničení, podtrhává odkazy a odstraňuje barevné přechody na pozadí. |
 | `@media (prefers-reduced-motion: reduce)` | Vypíná plynulé rolování a všechny animace či přechody prvků, aby pohyb na obrazovce nezpůsoboval nevolnost. |
 | `@media (prefers-reduced-transparency: reduce)` | Nahrazuje poloprůhledné pozadí karet plnou barvou a ruší rozostření pozadí pro maximální čitelnost textu. |
-| `@media (forced-colors: active)` | Nastavuje systémové barvy a výrazné okraje prvků, aby zůstaly viditelné i bez stínů v režimu vysokého kontrastu Windows. |
+| `@media (forced-colors: active)` | Nastavuje systémové barvy a výrazné okraje prvků, aby zůstaly viditelné i bez stínů v režimu vysokého kontrastu Windows. | 

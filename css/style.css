@@ -209,3 +209,43 @@ td {
     color-scheme: dark;
   }
 }
+
+@media (prefers-contrast: more) {
+  :root {
+    --bg-page: #ffffff;
+    --bg-card: #ffffff;
+    --bg-card-solid: #ffffff;
+    --text-main: #000000;
+    --text-muted: #000000;
+    --accent: #002b6b;
+    --accent-contrast: #ffffff;
+    --border-color: #000000;
+    --border-width: 2px;
+    --page-gradient: none;
+  }
+
+  body {
+    background-image: none;
+  }
+
+  a,
+  nav a {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+  }
+}
+
+@media (prefers-color-scheme: dark) and (prefers-contrast: more) {
+  :root {
+    --bg-page: #000000;
+    --bg-card: #000000;
+    --bg-card-solid: #000000;
+    --text-main: #ffffff;
+    --text-muted: #ffffff;
+    --accent: #99ccff;
+    --accent-contrast: #000000;
+    --border-color: #ffffff;
+    --border-width: 2px;
+    --page-gradient: none;
+  }
+}
